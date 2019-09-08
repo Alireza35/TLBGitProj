@@ -1,0 +1,22 @@
+{
+  "name": "TLBGitProj",
+  "version": "0.1.0",
+  "summary": "A short description of TLBGitProj.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Alireza35/TLBGitProj",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alireza35": "ali.tlb35@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Alireza35/TLBGitProj.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TLBGitProj/Classes/**/*"
+}

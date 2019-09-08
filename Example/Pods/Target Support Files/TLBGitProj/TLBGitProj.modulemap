@@ -1,0 +1,6 @@
+framework module TLBGitProj {
+  umbrella header "TLBGitProj-umbrella.h"
+
+  export *
+  module * { export * }
+}

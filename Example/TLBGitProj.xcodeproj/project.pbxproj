@@ -17,10 +17,10 @@
 		607FACE51AFB9204008FA782 /* TLBGitProj_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLBGitProj_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		AEA16AD81BFB0BADDAF385E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		AEF6D3FC81EE7ABE141F7D24 /* TLBGitProj.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TLBGitProj.podspec; path = ../TLBGitProj.podspec; sourceTree = "<group>"; };
+		AEA16AD81BFB0BADDAF385E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AEF6D3FC81EE7ABE141F7D24 /* TLBGitProj.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TLBGitProj.podspec; path = ../TLBGitProj.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D3BCD89DAF72468DB5BBC703 /* Pods-TLBGitProj_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLBGitProj_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TLBGitProj_Tests/Pods-TLBGitProj_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FCDB7DFD601B0407D0DD6656 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FCDB7DFD601B0407D0DD6656 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +49,6 @@
 				D3BCD89DAF72468DB5BBC703 /* Pods-TLBGitProj_Tests.debug.xcconfig */,
 				1F3179A23E0893EAD9533F6F /* Pods-TLBGitProj_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -194,15 +189,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TLBGitProj_Tests-checkManifestLockResult.txt",
 			);
