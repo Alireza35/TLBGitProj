@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TLBGitProj_Tests' do
+  pod 'TLBGitProj', :path => '../'
+  
+  
+end
